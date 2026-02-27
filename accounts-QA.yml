@@ -1,0 +1,10 @@
+accounts:
+  name: "Test Account from config server"
+  contactDetails:
+    email: "abc@gmail.com"
+    address: "Bangalore"
+  phone:
+    - type: "mobile"
+      number: "1234567890"
+    - type: "home"
+      number: "0987654321"
