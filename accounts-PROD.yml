@@ -8,6 +8,6 @@ accounts:
     address: "Bangalore"
   phone:
     - type: "mobile"
-      number: {cipher}"1234567890"#If needs to encrypt
+      number: "{cipher}1234567890"#If needs to encrypt
     - type: "home"
       number: "0987654321"
