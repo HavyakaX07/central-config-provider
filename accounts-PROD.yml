@@ -2,7 +2,7 @@ build:
   version: "2.0"
 
 accounts:
-  name: "Prod Account from config server"
+  name: "Prod Account from config server from Git"
   contactDetails:
     email: "abc@gmail.com"
     address: "Bangalore"
