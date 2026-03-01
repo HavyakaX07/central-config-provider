@@ -1,31 +1,11 @@
+build:
+  version: "3.0"
+
 accounts:
-  name: "Hegde from config server"
+  message: "Welcome to EazyBank accounts related docker APIs "
   contactDetails:
-    email: "abc@gmail.com"
-    address: "Bangalore"
-  phone:
-    - type: "mobile"
-      number: "1234567890"
-    - type: "home"
-      number: "0987654321"
-
-# Notes : How to give the external configuration command line argument coverts as key value pair and set to Environment variable
-# 1. Using Command Line Arguments:
-#    You can pass configuration properties directly as command line arguments when starting your Spring Boot application. For example:
-#    ```
-#    java -jar your-application.jar --accounts.name=Hegde --accounts.contactDetails
-
-#2. Using Environment Variables:
-#    You can set environment variables that correspond to your configuration properties. Spring Boot will automatically map environment variables to configuration properties. For example, you can set the following environment variables:
-#    ```
-#    env:build.version=2.0;java -jar your-application.jar like this
-
-# JVM Arguments:
-#    You can also pass configuration properties as JVM arguments when starting your application. For example:
-#    ```
-#    java -Daccounts.name=Hegde -Daccounts.contactDetails.email=abc@gmail
-
-# Presence of multiple configuration files:
-#    command line arguments and environment variables will override the values defined in the accounts.yml file. If you have multiple configuration files (e.g., accounts-QA.yml and accounts-PROD.yml), the active profile will determine which configuration file is used. In this case, since the active profile is set to "PROD", the properties defined in accounts-PROD.yml will take precedence over those in accounts-QA.yml.
-
-
+    name: "John Doe - Developer"
+    email: "john@eazybank.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345
